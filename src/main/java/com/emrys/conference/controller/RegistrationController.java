@@ -33,7 +33,7 @@ public class RegistrationController {
     @GetMapping("registration-report")
     public @ResponseBody
     List<RegistrationReport> getAllRegistrationReport(){
-      List<RegistrationReport> registrationReports = registrationService.fingAllRegistrationReport();
+      List<RegistrationReport> registrationReports = registrationService.registrationReport();
 
       return registrationReports;
     }

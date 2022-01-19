@@ -14,7 +14,7 @@ import java.util.List;
 })
 public class Registration {
 
-    public static final String REGISTRATION_REPORT = "registrationReport";
+    public static final String REGISTRATION_REPORT = "Registration.registrationReport";
     public static final String REGISTRATION_REPORT_JPQL =
             "Select new com.emrys.conference.model.RegistrationReport(r.name, c.name," +
             " c.description)  from Registration r, Course c where c.registration.id = r.id";
@@ -27,8 +27,24 @@ public class Registration {
     private String name;
 
     @JsonManagedReference
-    @OneToMany(mappedBy = "registration", cascade= CascadeType.ALL)
+    @OneToMany(mappedBy = "registration", cascade= CascadeType.ALL, fetch = FetchType.LAZY)
     private List<Course> courses = new ArrayList<>();
+
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    public List<Course> getCourses() {
+        return courses;
+    }
+
+    public void setCourses(List<Course> courses) {
+        this.courses = courses;
+    }
 
     public String getName() {
         return name;

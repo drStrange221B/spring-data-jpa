@@ -24,16 +24,25 @@ public class RegistrationServiceImpl implements RegistrationService {
     @Transactional
     public Registration addRegistration(Registration registration)
     {
-        registrationRepository.save(registration);
 
-        Course course = new Course();
-        course.setName("INTRO");
-        course.setDescription("Everyone Must Take This Course");
-        course.setRegistration(registration);
+        Registration registration1=null;
+        if(registration.getId()==null) {
+            registration1 = registrationRepository.save(registration);
 
-        courseRepository.save(course);
+            Course course = new Course();
+            course.setName("INTRO");
+            course.setDescription("Everyone Must Take This Course");
+            course.setRegistration(registration);
 
-        return registration;
+            courseRepository.save(course);
+        }else{
+
+            registration1 =  registrationRepository.save(registration);
+
+
+        }
+
+        return registration1;
     }
 
     @Override
@@ -46,9 +55,9 @@ public class RegistrationServiceImpl implements RegistrationService {
     }
 
     @Override
-    public List<RegistrationReport> fingAllRegistrationReport() {
+    public List<RegistrationReport> registrationReport() {
 
-       List<RegistrationReport> registrationReports = registrationRepository.findAllRegistrationReport();
+       List<RegistrationReport> registrationReports = registrationRepository.registrationReport();
         return registrationReports;
     }
 }
