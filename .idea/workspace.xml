@@ -9,17 +9,371 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f35bca47-fe87-4ec8-ba1b-4821602b4d2a" name="Changes" comment="add named query">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/emrys/conference/controller/RegistrationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/emrys/conference/controller/RegistrationController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/emrys/conference/model/Registration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/emrys/conference/model/Registration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/emrys/conference/repository/CourseRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/emrys/conference/repository/CourseRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/emrys/conference/repository/CourseRepositoryImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/emrys/conference/repository/RegistrationRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/emrys/conference/repository/RegistrationRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/emrys/conference/repository/RegistrationRepositoryImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/emrys/conference/service/RegistrationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/emrys/conference/service/RegistrationService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/emrys/conference/service/RegistrationServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/emrys/conference/service/RegistrationServiceImpl.java" afterDir="false" />
+    <list default="true" id="f35bca47-fe87-4ec8-ba1b-4821602b4d2a" name="Changes" comment="note">
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/02/spring-the-java-persistence-api-jpa-and-hibernate-slides.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/03/demos/after/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/03/demos/after/src/main/java/com/emrys/conference/ConferenceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/03/demos/after/src/main/java/com/emrys/conference/ConferenceConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/03/demos/after/src/main/java/com/emrys/conference/controller/GreetingController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/03/demos/after/src/main/java/com/emrys/conference/controller/RegistrationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/03/demos/after/src/main/java/com/emrys/conference/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/03/demos/after/src/main/java/com/emrys/conference/model/Registration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/03/demos/after/src/main/java/com/emrys/conference/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/03/demos/after/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/03/demos/after/src/main/resources/messages.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/03/demos/after/src/main/resources/messages_es.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/03/demos/after/src/main/resources/static/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/03/demos/after/src/main/resources/static/user.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/03/demos/after/src/main/resources/static/user.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/03/demos/after/src/main/webapp/WEB-INF/jsp/greeting.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/03/demos/after/src/main/webapp/WEB-INF/jsp/registration.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/03/demos/after/src/main/webapp/WEB-INF/pdf/ps.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/03/demos/after/src/main/webapp/assets/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/03/demos/after/src/main/webapp/assets/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/03/demos/after/src/main/webapp/assets/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/03/demos/after/src/main/webapp/assets/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/03/demos/after/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/03/demos/after/src/test/java/com/pluralsight/conference/ConferenceApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/03/demos/before/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/03/demos/before/src/main/java/com/pluralsight/conference/ConferenceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/03/demos/before/src/main/java/com/pluralsight/conference/ConferenceConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/03/demos/before/src/main/java/com/pluralsight/conference/controller/GreetingController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/03/demos/before/src/main/java/com/pluralsight/conference/controller/RegistrationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/03/demos/before/src/main/java/com/pluralsight/conference/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/03/demos/before/src/main/java/com/pluralsight/conference/model/Registration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/03/demos/before/src/main/java/com/pluralsight/conference/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/03/demos/before/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/03/demos/before/src/main/resources/messages.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/03/demos/before/src/main/resources/messages_es.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/03/demos/before/src/main/resources/static/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/03/demos/before/src/main/resources/static/user.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/03/demos/before/src/main/resources/static/user.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/03/demos/before/src/main/webapp/WEB-INF/jsp/greeting.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/03/demos/before/src/main/webapp/WEB-INF/jsp/registration.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/03/demos/before/src/main/webapp/WEB-INF/pdf/ps.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/03/demos/before/src/main/webapp/assets/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/03/demos/before/src/main/webapp/assets/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/03/demos/before/src/main/webapp/assets/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/03/demos/before/src/main/webapp/assets/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/03/demos/before/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/03/demos/before/src/test/java/com/pluralsight/conference/ConferenceApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/03/download-and-walkthrough-of-the-spring-mvc-java-app-slides.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/04/architecture-walkthrough-of-a-spring-jpa-hibernate-application-slides.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/04/demos/after/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/04/demos/after/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/04/demos/after/src/main/java/com/pluralsight/conference/ConferenceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/04/demos/after/src/main/java/com/pluralsight/conference/ConferenceConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/04/demos/after/src/main/java/com/pluralsight/conference/controller/GreetingController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/04/demos/after/src/main/java/com/pluralsight/conference/controller/RegistrationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/04/demos/after/src/main/java/com/pluralsight/conference/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/04/demos/after/src/main/java/com/pluralsight/conference/model/Registration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/04/demos/after/src/main/java/com/pluralsight/conference/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/04/demos/after/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/04/demos/after/src/main/resources/messages.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/04/demos/after/src/main/resources/messages_es.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/04/demos/after/src/main/resources/static/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/04/demos/after/src/main/resources/static/user.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/04/demos/after/src/main/resources/static/user.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/04/demos/after/src/main/webapp/WEB-INF/jsp/greeting.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/04/demos/after/src/main/webapp/WEB-INF/jsp/registration.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/04/demos/after/src/main/webapp/WEB-INF/pdf/ps.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/04/demos/after/src/main/webapp/assets/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/04/demos/after/src/main/webapp/assets/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/04/demos/after/src/main/webapp/assets/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/04/demos/after/src/main/webapp/assets/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/04/demos/after/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/04/demos/after/src/test/java/com/pluralsight/conference/ConferenceApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/04/demos/before/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/04/demos/before/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/04/demos/before/src/main/java/com/pluralsight/conference/ConferenceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/04/demos/before/src/main/java/com/pluralsight/conference/ConferenceConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/04/demos/before/src/main/java/com/pluralsight/conference/controller/GreetingController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/04/demos/before/src/main/java/com/pluralsight/conference/controller/RegistrationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/04/demos/before/src/main/java/com/pluralsight/conference/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/04/demos/before/src/main/java/com/pluralsight/conference/model/Registration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/04/demos/before/src/main/java/com/pluralsight/conference/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/04/demos/before/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/04/demos/before/src/main/resources/messages.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/04/demos/before/src/main/resources/messages_es.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/04/demos/before/src/main/resources/static/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/04/demos/before/src/main/resources/static/user.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/04/demos/before/src/main/resources/static/user.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/04/demos/before/src/main/webapp/WEB-INF/jsp/greeting.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/04/demos/before/src/main/webapp/WEB-INF/jsp/registration.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/04/demos/before/src/main/webapp/WEB-INF/pdf/ps.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/04/demos/before/src/main/webapp/assets/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/04/demos/before/src/main/webapp/assets/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/04/demos/before/src/main/webapp/assets/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/04/demos/before/src/main/webapp/assets/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/04/demos/before/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/04/demos/before/src/test/java/com/pluralsight/conference/ConferenceApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/05/demos/after/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/05/demos/after/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/05/demos/after/src/main/java/com/pluralsight/conference/ConferenceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/05/demos/after/src/main/java/com/pluralsight/conference/ConferenceConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/05/demos/after/src/main/java/com/pluralsight/conference/controller/GreetingController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/05/demos/after/src/main/java/com/pluralsight/conference/controller/RegistrationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/05/demos/after/src/main/java/com/pluralsight/conference/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/05/demos/after/src/main/java/com/pluralsight/conference/model/Registration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/05/demos/after/src/main/java/com/pluralsight/conference/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/05/demos/after/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/05/demos/after/src/main/resources/messages.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/05/demos/after/src/main/resources/messages_es.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/05/demos/after/src/main/resources/static/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/05/demos/after/src/main/resources/static/user.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/05/demos/after/src/main/resources/static/user.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/05/demos/after/src/main/webapp/WEB-INF/jsp/greeting.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/05/demos/after/src/main/webapp/WEB-INF/jsp/registration.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/05/demos/after/src/main/webapp/WEB-INF/pdf/ps.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/05/demos/after/src/main/webapp/assets/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/05/demos/after/src/main/webapp/assets/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/05/demos/after/src/main/webapp/assets/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/05/demos/after/src/main/webapp/assets/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/05/demos/after/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/05/demos/after/src/test/java/com/pluralsight/conference/ConferenceApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/05/demos/before/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/05/demos/before/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/05/demos/before/src/main/java/com/pluralsight/conference/ConferenceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/05/demos/before/src/main/java/com/pluralsight/conference/ConferenceConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/05/demos/before/src/main/java/com/pluralsight/conference/controller/GreetingController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/05/demos/before/src/main/java/com/pluralsight/conference/controller/RegistrationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/05/demos/before/src/main/java/com/pluralsight/conference/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/05/demos/before/src/main/java/com/pluralsight/conference/model/Registration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/05/demos/before/src/main/java/com/pluralsight/conference/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/05/demos/before/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/05/demos/before/src/main/resources/messages.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/05/demos/before/src/main/resources/messages_es.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/05/demos/before/src/main/resources/static/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/05/demos/before/src/main/resources/static/user.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/05/demos/before/src/main/resources/static/user.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/05/demos/before/src/main/webapp/WEB-INF/jsp/greeting.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/05/demos/before/src/main/webapp/WEB-INF/jsp/registration.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/05/demos/before/src/main/webapp/WEB-INF/pdf/ps.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/05/demos/before/src/main/webapp/assets/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/05/demos/before/src/main/webapp/assets/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/05/demos/before/src/main/webapp/assets/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/05/demos/before/src/main/webapp/assets/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/05/demos/before/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/05/demos/before/src/test/java/com/pluralsight/conference/ConferenceApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/05/recap-of-spring-concepts-that-are-used-in-this-course-slides.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/06/configuration-of-spring-and-jpa-for-development-slides.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/06/demos/after/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/06/demos/after/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/06/demos/after/src/main/java/com/pluralsight/conference/ConferenceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/06/demos/after/src/main/java/com/pluralsight/conference/ConferenceConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/06/demos/after/src/main/java/com/pluralsight/conference/controller/GreetingController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/06/demos/after/src/main/java/com/pluralsight/conference/controller/RegistrationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/06/demos/after/src/main/java/com/pluralsight/conference/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/06/demos/after/src/main/java/com/pluralsight/conference/model/Registration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/06/demos/after/src/main/java/com/pluralsight/conference/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/06/demos/after/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/06/demos/after/src/main/resources/messages.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/06/demos/after/src/main/resources/messages_es.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/06/demos/after/src/main/resources/static/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/06/demos/after/src/main/resources/static/user.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/06/demos/after/src/main/resources/static/user.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/06/demos/after/src/main/webapp/WEB-INF/jsp/greeting.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/06/demos/after/src/main/webapp/WEB-INF/jsp/registration.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/06/demos/after/src/main/webapp/WEB-INF/pdf/ps.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/06/demos/after/src/main/webapp/assets/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/06/demos/after/src/main/webapp/assets/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/06/demos/after/src/main/webapp/assets/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/06/demos/after/src/main/webapp/assets/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/06/demos/after/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/06/demos/after/src/test/java/com/pluralsight/conference/ConferenceApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/06/demos/before/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/06/demos/before/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/06/demos/before/src/main/java/com/pluralsight/conference/ConferenceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/06/demos/before/src/main/java/com/pluralsight/conference/ConferenceConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/06/demos/before/src/main/java/com/pluralsight/conference/controller/GreetingController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/06/demos/before/src/main/java/com/pluralsight/conference/controller/RegistrationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/06/demos/before/src/main/java/com/pluralsight/conference/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/06/demos/before/src/main/java/com/pluralsight/conference/model/Registration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/06/demos/before/src/main/java/com/pluralsight/conference/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/06/demos/before/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/06/demos/before/src/main/resources/messages.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/06/demos/before/src/main/resources/messages_es.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/06/demos/before/src/main/resources/static/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/06/demos/before/src/main/resources/static/user.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/06/demos/before/src/main/resources/static/user.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/06/demos/before/src/main/webapp/WEB-INF/jsp/greeting.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/06/demos/before/src/main/webapp/WEB-INF/jsp/registration.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/06/demos/before/src/main/webapp/WEB-INF/pdf/ps.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/06/demos/before/src/main/webapp/assets/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/06/demos/before/src/main/webapp/assets/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/06/demos/before/src/main/webapp/assets/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/06/demos/before/src/main/webapp/assets/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/06/demos/before/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/06/demos/before/src/test/java/com/pluralsight/conference/ConferenceApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/07/demos/after/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/07/demos/after/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/07/demos/after/src/main/java/com/pluralsight/conference/ConferenceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/07/demos/after/src/main/java/com/pluralsight/conference/ConferenceConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/07/demos/after/src/main/java/com/pluralsight/conference/controller/GreetingController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/07/demos/after/src/main/java/com/pluralsight/conference/controller/RegistrationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/07/demos/after/src/main/java/com/pluralsight/conference/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/07/demos/after/src/main/java/com/pluralsight/conference/model/Course.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/07/demos/after/src/main/java/com/pluralsight/conference/model/Registration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/07/demos/after/src/main/java/com/pluralsight/conference/model/RegistrationReport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/07/demos/after/src/main/java/com/pluralsight/conference/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/07/demos/after/src/main/java/com/pluralsight/conference/repository/CourseRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/07/demos/after/src/main/java/com/pluralsight/conference/repository/CourseRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/07/demos/after/src/main/java/com/pluralsight/conference/repository/RegistrationRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/07/demos/after/src/main/java/com/pluralsight/conference/repository/RegistrationRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/07/demos/after/src/main/java/com/pluralsight/conference/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/07/demos/after/src/main/java/com/pluralsight/conference/repository/UserRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/07/demos/after/src/main/java/com/pluralsight/conference/service/RegistrationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/07/demos/after/src/main/java/com/pluralsight/conference/service/RegistrationServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/07/demos/after/src/main/java/com/pluralsight/conference/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/07/demos/after/src/main/java/com/pluralsight/conference/service/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/07/demos/after/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/07/demos/after/src/main/resources/messages.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/07/demos/after/src/main/resources/messages_es.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/07/demos/after/src/main/resources/static/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/07/demos/after/src/main/resources/static/user.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/07/demos/after/src/main/resources/static/user.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/07/demos/after/src/main/webapp/WEB-INF/jsp/greeting.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/07/demos/after/src/main/webapp/WEB-INF/jsp/registration.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/07/demos/after/src/main/webapp/WEB-INF/pdf/ps.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/07/demos/after/src/main/webapp/assets/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/07/demos/after/src/main/webapp/assets/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/07/demos/after/src/main/webapp/assets/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/07/demos/after/src/main/webapp/assets/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/07/demos/after/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/07/demos/after/src/test/java/com/pluralsight/conference/ConferenceApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/07/demos/before/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/07/demos/before/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/07/demos/before/src/main/java/com/pluralsight/conference/ConferenceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/07/demos/before/src/main/java/com/pluralsight/conference/ConferenceConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/07/demos/before/src/main/java/com/pluralsight/conference/controller/GreetingController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/07/demos/before/src/main/java/com/pluralsight/conference/controller/RegistrationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/07/demos/before/src/main/java/com/pluralsight/conference/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/07/demos/before/src/main/java/com/pluralsight/conference/model/Registration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/07/demos/before/src/main/java/com/pluralsight/conference/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/07/demos/before/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/07/demos/before/src/main/resources/messages.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/07/demos/before/src/main/resources/messages_es.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/07/demos/before/src/main/resources/static/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/07/demos/before/src/main/resources/static/user.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/07/demos/before/src/main/resources/static/user.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/07/demos/before/src/main/webapp/WEB-INF/jsp/greeting.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/07/demos/before/src/main/webapp/WEB-INF/jsp/registration.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/07/demos/before/src/main/webapp/WEB-INF/pdf/ps.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/07/demos/before/src/main/webapp/assets/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/07/demos/before/src/main/webapp/assets/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/07/demos/before/src/main/webapp/assets/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/07/demos/before/src/main/webapp/assets/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/07/demos/before/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/07/demos/before/src/test/java/com/pluralsight/conference/ConferenceApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/07/overview-of-jpa-and-creating-your-first-entity-slides.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/08/demos/after/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/08/demos/after/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/08/demos/after/src/main/java/com/pluralsight/conference/ConferenceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/08/demos/after/src/main/java/com/pluralsight/conference/ConferenceConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/08/demos/after/src/main/java/com/pluralsight/conference/controller/GreetingController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/08/demos/after/src/main/java/com/pluralsight/conference/controller/RegistrationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/08/demos/after/src/main/java/com/pluralsight/conference/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/08/demos/after/src/main/java/com/pluralsight/conference/model/Course.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/08/demos/after/src/main/java/com/pluralsight/conference/model/Registration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/08/demos/after/src/main/java/com/pluralsight/conference/model/RegistrationReport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/08/demos/after/src/main/java/com/pluralsight/conference/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/08/demos/after/src/main/java/com/pluralsight/conference/repository/CourseRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/08/demos/after/src/main/java/com/pluralsight/conference/repository/CourseRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/08/demos/after/src/main/java/com/pluralsight/conference/repository/RegistrationRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/08/demos/after/src/main/java/com/pluralsight/conference/repository/RegistrationRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/08/demos/after/src/main/java/com/pluralsight/conference/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/08/demos/after/src/main/java/com/pluralsight/conference/repository/UserRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/08/demos/after/src/main/java/com/pluralsight/conference/service/RegistrationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/08/demos/after/src/main/java/com/pluralsight/conference/service/RegistrationServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/08/demos/after/src/main/java/com/pluralsight/conference/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/08/demos/after/src/main/java/com/pluralsight/conference/service/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/08/demos/after/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/08/demos/after/src/main/resources/messages.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/08/demos/after/src/main/resources/messages_es.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/08/demos/after/src/main/resources/static/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/08/demos/after/src/main/resources/static/user.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/08/demos/after/src/main/resources/static/user.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/08/demos/after/src/main/webapp/WEB-INF/jsp/greeting.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/08/demos/after/src/main/webapp/WEB-INF/jsp/registration.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/08/demos/after/src/main/webapp/WEB-INF/pdf/ps.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/08/demos/after/src/main/webapp/assets/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/08/demos/after/src/main/webapp/assets/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/08/demos/after/src/main/webapp/assets/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/08/demos/after/src/main/webapp/assets/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/08/demos/after/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/08/demos/after/src/test/java/com/pluralsight/conference/ConferenceApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/08/jpa-annotations-and-how-to-use-them-slides.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/09/demos/after/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/09/demos/after/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/09/demos/after/src/main/java/com/pluralsight/conference/ConferenceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/09/demos/after/src/main/java/com/pluralsight/conference/ConferenceConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/09/demos/after/src/main/java/com/pluralsight/conference/controller/GreetingController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/09/demos/after/src/main/java/com/pluralsight/conference/controller/RegistrationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/09/demos/after/src/main/java/com/pluralsight/conference/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/09/demos/after/src/main/java/com/pluralsight/conference/model/Course.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/09/demos/after/src/main/java/com/pluralsight/conference/model/Registration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/09/demos/after/src/main/java/com/pluralsight/conference/model/RegistrationReport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/09/demos/after/src/main/java/com/pluralsight/conference/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/09/demos/after/src/main/java/com/pluralsight/conference/repository/CourseRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/09/demos/after/src/main/java/com/pluralsight/conference/repository/CourseRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/09/demos/after/src/main/java/com/pluralsight/conference/repository/RegistrationRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/09/demos/after/src/main/java/com/pluralsight/conference/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/09/demos/after/src/main/java/com/pluralsight/conference/service/RegistrationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/09/demos/after/src/main/java/com/pluralsight/conference/service/RegistrationServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/09/demos/after/src/main/java/com/pluralsight/conference/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/09/demos/after/src/main/java/com/pluralsight/conference/service/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/09/demos/after/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/09/demos/after/src/main/resources/messages.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/09/demos/after/src/main/resources/messages_es.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/09/demos/after/src/main/resources/static/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/09/demos/after/src/main/resources/static/user.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/09/demos/after/src/main/resources/static/user.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/09/demos/after/src/main/webapp/WEB-INF/jsp/greeting.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/09/demos/after/src/main/webapp/WEB-INF/jsp/registration.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/09/demos/after/src/main/webapp/WEB-INF/pdf/ps.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/09/demos/after/src/main/webapp/assets/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/09/demos/after/src/main/webapp/assets/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/09/demos/after/src/main/webapp/assets/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/09/demos/after/src/main/webapp/assets/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/09/demos/after/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/09/demos/after/src/test/java/com/pluralsight/conference/ConferenceApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/09/demos/before/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/09/demos/before/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/09/demos/before/src/main/java/com/pluralsight/conference/ConferenceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/09/demos/before/src/main/java/com/pluralsight/conference/ConferenceConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/09/demos/before/src/main/java/com/pluralsight/conference/controller/GreetingController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/09/demos/before/src/main/java/com/pluralsight/conference/controller/RegistrationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/09/demos/before/src/main/java/com/pluralsight/conference/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/09/demos/before/src/main/java/com/pluralsight/conference/model/Course.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/09/demos/before/src/main/java/com/pluralsight/conference/model/Registration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/09/demos/before/src/main/java/com/pluralsight/conference/model/RegistrationReport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/09/demos/before/src/main/java/com/pluralsight/conference/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/09/demos/before/src/main/java/com/pluralsight/conference/repository/CourseRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/09/demos/before/src/main/java/com/pluralsight/conference/repository/CourseRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/09/demos/before/src/main/java/com/pluralsight/conference/repository/RegistrationRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/09/demos/before/src/main/java/com/pluralsight/conference/repository/RegistrationRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/09/demos/before/src/main/java/com/pluralsight/conference/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/09/demos/before/src/main/java/com/pluralsight/conference/repository/UserRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/09/demos/before/src/main/java/com/pluralsight/conference/service/RegistrationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/09/demos/before/src/main/java/com/pluralsight/conference/service/RegistrationServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/09/demos/before/src/main/java/com/pluralsight/conference/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/09/demos/before/src/main/java/com/pluralsight/conference/service/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/09/demos/before/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/09/demos/before/src/main/resources/messages.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/09/demos/before/src/main/resources/messages_es.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/09/demos/before/src/main/resources/static/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/09/demos/before/src/main/resources/static/user.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/09/demos/before/src/main/resources/static/user.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/09/demos/before/src/main/webapp/WEB-INF/jsp/greeting.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/09/demos/before/src/main/webapp/WEB-INF/jsp/registration.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/09/demos/before/src/main/webapp/WEB-INF/pdf/ps.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/09/demos/before/src/main/webapp/assets/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/09/demos/before/src/main/webapp/assets/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/09/demos/before/src/main/webapp/assets/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/09/demos/before/src/main/webapp/assets/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/09/demos/before/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/09/demos/before/src/test/java/com/pluralsight/conference/ConferenceApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring-jpa-hibernate/09/how-to-configure-and-use-spring-data-jpa-slides.pdf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +389,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="JpbToolWindowState">
@@ -245,6 +604,7 @@
       <workItem from="1642306721105" duration="3000" />
       <workItem from="1642306775483" duration="318000" />
       <workItem from="1642307104292" duration="31882000" />
+      <workItem from="1642627439183" duration="341000" />
     </task>
     <task id="LOCAL-00001" summary="adding docker-compose.yml">
       <created>1642310773628</created>
@@ -274,7 +634,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642566201749</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="note">
+      <created>1642627583533</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1642627583533</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -296,6 +663,7 @@
     <MESSAGE value="jpql" />
     <MESSAGE value="Implementing Projection" />
     <MESSAGE value="add named query" />
-    <option name="LAST_COMMIT_MESSAGE" value="add named query" />
+    <MESSAGE value="note" />
+    <option name="LAST_COMMIT_MESSAGE" value="note" />
   </component>
 </project>
