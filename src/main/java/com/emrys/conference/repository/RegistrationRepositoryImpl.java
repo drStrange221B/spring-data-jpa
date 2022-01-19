@@ -5,10 +5,13 @@ import com.emrys.conference.model.RegistrationReport;
 import org.springframework.stereotype.Repository;
 
 import javax.persistence.EntityManager;
+import javax.persistence.NamedQueries;
+import javax.persistence.NamedQuery;
 import javax.persistence.PersistenceContext;
 import java.util.List;
 
 @Repository
+
 public class RegistrationRepositoryImpl implements RegistrationRepository {
 
     @PersistenceContext
@@ -29,10 +32,12 @@ public class RegistrationRepositoryImpl implements RegistrationRepository {
 
     @Override
     public List<RegistrationReport> findAllRegistrationReport(){
-        String jpql = "select new com.emrys.conference.model.RegistrationReport(r.name, c.name, c.description) "
-                + "from Registration r, Course c where c.registration.id = r.id ";
+//        String jpql = "select new com.emrys.conference.model.RegistrationReport(r.name, c.name, c.description) "
+//                + "from Registration r, Course c where c.registration.id = r.id ";
+//
+//        List<RegistrationReport> registrationReports = entityManager.createQuery(jpql).getResultList();
 
-        List<RegistrationReport> registrationReports = entityManager.createQuery(jpql).getResultList();
+        List<RegistrationReport> registrationReports = entityManager.createNamedQuery(Registration.REGISTRATION_REPORT).getResultList();
 
         return registrationReports;
     }
