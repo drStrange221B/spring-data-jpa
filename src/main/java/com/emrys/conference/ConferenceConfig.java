@@ -1,4 +1,4 @@
-package com.pluralsight.conference;
+package com.emrys.conference;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

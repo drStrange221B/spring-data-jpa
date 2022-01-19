@@ -1,4 +1,4 @@
-package com.pluralsight.conference.controller;
+package com.emrys.conference.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;

@@ -1,10 +1,30 @@
-package com.pluralsight.conference.model;
+package com.emrys.conference.model;
 
+import javax.persistence.*;
+
+@Entity
+@Table(name = "user_1")
 public class User {
 
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
+
+    @Column(name = "FIRST_NAME")
     private String firstname;
+
+    @Column(name="LAST_NAME")
     private String lastname;
+
     private int age;
+
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
 
     public String getFirstname() {
         return firstname;

@@ -1,6 +1,9 @@
-package com.pluralsight.conference.controller;
+package com.emrys.conference.controller;
 
-import com.pluralsight.conference.model.User;
+
+import com.emrys.conference.model.User;
+import com.emrys.conference.service.UserService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -8,6 +11,9 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class UserController {
+
+    @Autowired
+    private UserService userService;
 
     @GetMapping("/user")
     public User getUser(@RequestParam(value = "firstname", defaultValue = "Bryan") String firstname,
@@ -26,7 +32,7 @@ public class UserController {
     public User postUser(User user) {
         System.out.println("User firstname:" + user.getFirstname());
 
-        return user;
+        return userService.save(user);
     }
 
 }
