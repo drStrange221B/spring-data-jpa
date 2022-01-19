@@ -2,6 +2,7 @@ package com.emrys.conference.service;
 
 import com.emrys.conference.model.Course;
 import com.emrys.conference.model.Registration;
+import com.emrys.conference.model.RegistrationReport;
 import com.emrys.conference.repository.CourseRepository;
 import com.emrys.conference.repository.RegistrationRepository;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -42,5 +43,12 @@ public class RegistrationServiceImpl implements RegistrationService {
 
         return registrations;
 
+    }
+
+    @Override
+    public List<RegistrationReport> fingAllRegistrationReport() {
+
+       List<RegistrationReport> registrationReports = registrationRepository.findAllRegistrationReport();
+        return registrationReports;
     }
 }

@@ -1,6 +1,7 @@
 package com.emrys.conference.controller;
 
 import com.emrys.conference.model.Registration;
+import com.emrys.conference.model.RegistrationReport;
 import com.emrys.conference.service.RegistrationService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -28,6 +29,15 @@ public class RegistrationController {
         return registrations;
 
     }
+
+    @GetMapping("registration-report")
+    public @ResponseBody
+    List<RegistrationReport> getAllRegistrationReport(){
+      List<RegistrationReport> registrationReports = registrationService.fingAllRegistrationReport();
+
+      return registrationReports;
+    }
+
     @PostMapping("registration")
     public String addRegistration(@Valid @ModelAttribute ("registration")
                                               Registration registration,

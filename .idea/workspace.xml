@@ -9,58 +9,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f35bca47-fe87-4ec8-ba1b-4821602b4d2a" name="Changes" comment="adding docker-compose.yml">
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_istack_istack_commons_runtime_3_0_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_xml_fastinfoset_FastInfoset_1_2_16.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_3_4_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_persistence_jakarta_persistence_api_2_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_transaction_jakarta_transaction_api_1_3_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_19.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_dom4j_dom4j_2_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_jaxb_runtime_2_3_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_txw2_2_3_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_1_0_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_5_4_12_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_24_0_GA.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_jandex_2_1_1_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jvnet_staxex_stax_ex_1_8_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_2_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_jpa_2_2_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_2_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_2_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_jpa_2_2_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aspects_5_2_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_2_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_orm_5_2_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_2_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/emrys/conference/model/Course.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/emrys/conference/repository/CourseRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/emrys/conference/repository/CourseRepositoryImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/emrys/conference/repository/RegistrationRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/emrys/conference/repository/RegistrationRepositoryImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/emrys/conference/repository/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/emrys/conference/repository/UserRepositoryImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/emrys/conference/service/RegistrationService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/emrys/conference/service/RegistrationServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/emrys/conference/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/emrys/conference/service/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/conference_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/conference_war_exploded.xml" afterDir="false" />
+    <list default="true" id="f35bca47-fe87-4ec8-ba1b-4821602b4d2a" name="Changes" comment="jpql">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/emrys/conference/model/RegistrationReport.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conference.iml" beforeDir="false" afterPath="$PROJECT_DIR$/conference.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/emrys/conference/ConferenceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/emrys/conference/ConferenceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/emrys/conference/ConferenceConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/emrys/conference/ConferenceConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/emrys/conference/controller/GreetingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/emrys/conference/controller/GreetingController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/emrys/conference/controller/RegistrationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/emrys/conference/controller/RegistrationController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/emrys/conference/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/emrys/conference/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/emrys/conference/model/Registration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/emrys/conference/model/Registration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/emrys/conference/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/emrys/conference/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/pluralsight/conference/ConferenceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/emrys/conference/ConferenceApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/emrys/conference/repository/RegistrationRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/emrys/conference/repository/RegistrationRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/emrys/conference/repository/RegistrationRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/emrys/conference/repository/RegistrationRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/emrys/conference/service/RegistrationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/emrys/conference/service/RegistrationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/emrys/conference/service/RegistrationServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/emrys/conference/service/RegistrationServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,8 +26,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -277,7 +233,7 @@
       <workItem from="1642306710454" duration="7000" />
       <workItem from="1642306721105" duration="3000" />
       <workItem from="1642306775483" duration="318000" />
-      <workItem from="1642307104292" duration="25988000" />
+      <workItem from="1642307104292" duration="27434000" />
     </task>
     <task id="LOCAL-00001" summary="adding docker-compose.yml">
       <created>1642310773628</created>
@@ -286,7 +242,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642310773628</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="jpql">
+      <created>1642561974239</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1642561974239</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -305,6 +268,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="adding docker-compose.yml" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding docker-compose.yml" />
+    <MESSAGE value="jpql" />
+    <option name="LAST_COMMIT_MESSAGE" value="jpql" />
   </component>
 </project>
