@@ -119,6 +119,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ConferenceApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="conference" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.emrys.conference.ConferenceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ConferenceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="conference" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.pluralsight.conference.ConferenceApplication" />
@@ -214,9 +221,10 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Tomcat Server.Tomcat 9.0.56" />
       <item itemvalue="JUnit.ConferenceApplicationTests" />
       <item itemvalue="Spring Boot.ConferenceApplication" />
+      <item itemvalue="Tomcat Server.Tomcat 9.0.56" />
+      <item itemvalue="Spring Boot.ConferenceApplication (1)" />
     </list>
     <recent_temporary>
       <list>
